@@ -10,7 +10,7 @@ const projectsData = [
     title: "React Portfolio Website",
     description: "Project 1 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Potography Portfolio Website",
     description: "Project 2 description",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "E-commerce Application",
     description: "Project 3 description",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Food Ordering Application",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Next.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "React Firebase Template",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React.js"
+          isSelected={tag === "React.js"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Next.js"
+          isSelected={tag === "Next.js"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

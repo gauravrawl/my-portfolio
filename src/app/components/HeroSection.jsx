@@ -26,9 +26,7 @@ const HeroSection = () => {
                 1000,
                 "Frontend Developer",
                 1000,
-                "ReactJS Developer",
-                1000,
-                "Web Developer",
+                "FullStack Developer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          I love building scalable web applications and constantly learning new technologies.
           </p>
           <div>
             <Link
