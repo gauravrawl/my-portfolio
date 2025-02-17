@@ -7,58 +7,62 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Next.js Portfolio",
+    description: "A personal portfolio website",
     image: "/images/projects/1.png",
-    tag: ["All", "React.js"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "React.js"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "React.js"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
     tag: ["All", "Next.js"],
     gitUrl: "/",
     previewUrl: "/",
+    codeHide: true
   },
   {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    id: 2,
+    title: "RiskWise Pro",
+    description: "Crypto stats web app",
+    image: "/images/projects/2.png",
     tag: ["All", "React.js"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://riskwisepro.io/",
+    codeHide: true
   },
   {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    id: 3,
+    title: "Codeto - learning",
+    description: "A learning program webiste.",
+    image: "/images/projects/3.png",
     tag: ["All", "React.js"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://codeto.codes/",
+    codeHide: true
+
   },
+  // {
+  //   id: 4,
+  //   title: "Food Ordering Application",
+  //   description: "Project 4 description",
+  //   image: "/images/projects/4.png",
+  //   tag: ["All", "Next.js"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 5,
+  //   title: "React Firebase Template",
+  //   description: "Authentication and CRUD operations",
+  //   image: "/images/projects/5.png",
+  //   tag: ["All", "React.js"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Full-stack Roadmap",
+  //   description: "Project 5 description",
+  //   image: "/images/projects/6.png",
+  //   tag: ["All", "React.js"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
 ];
 
 const ProjectsSection = () => {
@@ -117,6 +121,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              codeHide={project?.codeHide || false}
             />
           </motion.li>
         ))}
