@@ -36,24 +36,26 @@ const projectsData = [
     codeHide: true
 
   },
-  // {
-  //   id: 4,
-  //   title: "Food Ordering Application",
-  //   description: "Project 4 description",
-  //   image: "/images/projects/4.png",
-  //   tag: ["All", "Next.js"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
-  // {
-  //   id: 5,
-  //   title: "React Firebase Template",
-  //   description: "Authentication and CRUD operations",
-  //   image: "/images/projects/5.png",
-  //   tag: ["All", "React.js"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 4,
+    title: "Betri9 - 3cards game",
+    description: "A landing page for a cards game app.",
+    image: "/images/projects/4.png",
+    tag: ["All", "React.js"],
+    gitUrl: "/",
+    previewUrl: "https://betri9.com/",
+    codeHide: true
+  },
+  {
+    id: 5,
+    title: "Mindmaze",
+    description: "A mindmaze for BajajAMC",
+    image: "/images/projects/5.png",
+    tag: ["All", "React.js"],
+    gitUrl: "/",
+    previewUrl: "https://mindmaze.bajajamc.com/",
+    codeHide: true
+  },
   // {
   //   id: 6,
   //   title: "Full-stack Roadmap",
@@ -86,7 +88,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
