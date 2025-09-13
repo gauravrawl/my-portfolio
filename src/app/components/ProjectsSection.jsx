@@ -23,7 +23,7 @@ const projectsData = [
     image: "/images/projects/7.png",
     tag: ["All", "React.js"],
     gitUrl: "/",
-    previewUrl: "https://balajiscales.shop",
+    previewUrl: "https://balajiscales.info/",
     codeHide: true
 
   },
